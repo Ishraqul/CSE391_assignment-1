@@ -1,0 +1,106 @@
+@import 'utilities.css';
+:root{
+	--primary: #3DCFD3;
+	--dark: #161616;
+	--pure: #FFFFFF;
+	--ternary: #898989;
+	--light: #F2F2F2;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	--webkit-font-smotthing: antialiased;
+}
+header{
+	background: var(--dark);
+	height: 800px;
+	
+}
+.container{
+	max-width: 1152px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+header nav .left a{
+	color:  var(--pure);
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all .3s ease;
+	-webkit-transition: all.3s;
+	-moz-transition: all,3s;
+	-ms-transition: all.3s;
+	-o-transition: all.3s;
+
+}
+
+header nav .left a:hover{
+	color: var(--primary);
+}
+header nav{
+	padding: 2rem 0;
+}
+.Me .left img{
+	width: 400px;
+}
+.Me .right{
+	color: var(--pure);
+}
+.Me .right h6{
+	font-size: 1.6rem;
+	color: var(--primary);
+	margin-bottom: 0.5rem;
+}
+.Me .right h1{
+	font-size: 4rem;
+	font-weight: 100;
+	line-height: 1.2;
+	margin-bottom: 2rem;
+}
+.Me .right h1 span{
+	color: var(--primary);
+}
+.Me .right p{
+	line-height: 1.9;
+	margin-bottom: 2rem;
+}
+
+section{
+	background: var(--dark);
+	padding: 6rem;
+}
+.Profile img{
+	width: 500px;
+}
+
+section.Profile .exp{
+	height:450px ;
+}
+section.Profile h1{
+	margin-bottom: 1rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: var(--pure);
+}
+section.Profile h1 span{
+	color: var(--primary);
+}
+section.Profile h3{
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	font-weight: 400;
+	color: var(--primary);
+	font-display: block;
+}
+
+section.Profile p{
+	font-family: 'Lato', sans-serif;
+	color: var(--pure);
+	line-height: 1.9;
+	margin-bottom: 2rem;
+}
+
